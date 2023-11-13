@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background"/>
+            tools:src="@drawable/ic_launcher_background"/>
 
         <com.example.drawingapp.DrawingView
             android:id="@+id/drawing_view"
@@ -164,6 +164,14 @@
             android:layout_margin="5dp"
             android:scaleType="fitXY"
             android:src="@drawable/ic_brush" />
+
+        <ImageButton
+            android:id="@+id/ib_save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_save" />
 
     </LinearLayout>
 
